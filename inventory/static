@@ -1,0 +1,13 @@
+[master-nodes]
+hdp-01.linuxian.local ansible_user=centos ansible_host=hdp-01.linuxian.local
+hdp-02.linuxian.local ansible_user=centos ansible_host=hdp-02.linuxian.local
+
+[slave-nodes]
+hdp-03.linuxian.local ansible_user=centos ansible_host=hdp-03.linuxian.local   
+hdp-04.linuxian.local ansible_user=centos ansible_host=hdp-04.linuxian.local
+hdp-05.linuxian.local ansible_user=centos ansible_host=hdp-05.linuxian.local
+hdp-06.linuxian.local ansible_user=centos ansible_host=hdp-06.linuxian.local
+hdp-07.linuxian.local ansible_user=centos ansible_host=hdp-07.linuxian.local
+
+[ednodes]
+#edge01 ansible_host=192.168.0.5 bond_ip=172.16.0.5 ansible_user=rack ansible_ssh_pass=changeme
