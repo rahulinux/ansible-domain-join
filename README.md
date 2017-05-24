@@ -1,0 +1,1 @@
+# ansible-domain-join
