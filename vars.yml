@@ -1,0 +1,12 @@
+---
+- ad_server:
+    ip: 172.31.61.1
+    fqdn: etl-ad01.linuxian.local
+    user: Administrator
+    pass: 'ChangeIt'
+    domain: 
+     - linuxian.local
+     - ec2.internal
+    dns: 
+     - 172.31.61.1
+     - 172.31.0.2
